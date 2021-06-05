@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    
+</head>
+<body>
+
+    <H1>Formularios</H1> 
+    <form>
+        <label for="nombre">Nombre: </label><br/>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"/><br/>
+        <label for="apellido">Apellido: </label><br/>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"/><br/>
+        <label for="password">Password: </label><br/>
+        <input type="password" id="password" name="password" required="true"/><br/>
+        <label for="Edad">Edad: </label><br/>
+        <input type="number" id="Edad" name="Edad" required="true"/><br/>
+        <label>Genero</label><br/>
+        <input type="radio" id="femenino" name="genero" value="F"/>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="masculino" name="genero" value="M"/>
+        <label for="masculino">Masculino</label>
+        <br/>
+        <label>Hobbies</label><br/>
+        <input type="checkbox" id="leer" name="hobbie" value="lectura"/> 
+        <label>leer</label><br/>       
+        <input type="checkbox" id="deporte" name="hobbie" value="deporte"/>        
+        <label>Deportes</label><br/>
+        <input type="checkbox" id="musica" name="hobbie" value="musica"/>
+        <label>Musica</label><br/>
+        <input type="checkbox" id="caminar" name="hobbie" value="caminata"/>
+        <label>Caminar</label><br/>
+        <br/>
+        <input type="submit" value="Enviar"/>
+    </form>   
+</body>
+</html>
